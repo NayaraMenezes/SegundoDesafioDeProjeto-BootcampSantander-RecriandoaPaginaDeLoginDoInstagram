@@ -17,7 +17,7 @@ body {
     justify-content: center;
 }
 
-.instagram-wrapper {
+.instadog-wrapper {
     display: flex;
     align-items: center;
     justify-content: start;
@@ -25,18 +25,18 @@ body {
     height: 100vh;
 }
 
-.instagram-phone {
+.instadog-phone {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 50%;
 }
 
-.instagram-phone img {
+.instadog-phone img {
     height: 50rem;
 }
 
-.instagram-continue {
+.instadog-continue {
     display: flex;
     align-items: center; /* horizontal */
     justify-content: space-around; /* vertical */
@@ -60,7 +60,7 @@ body {
     min-height: 19rem;
 }
 
-.instagram-logo {
+.instadog-logo {
     height: 3rem;
 }
 
@@ -76,14 +76,14 @@ body {
     height: 6rem;
 }
 
-.instagram-login {
+.instadog-login {
     background-color: #0095f6;
     color: #ffffff;
     padding: 8px;
     border-radius: 4px;
 }
 
-.instagram-logout {
+.instadog-logout {
     color: #0095f6;
     margin-top: 1rem;
 }
@@ -131,7 +131,7 @@ body {
 
 
 @media (max-width: 1024px) {
-    .instagram-wrapper {
+    .instadog-wrapper {
         width: 90%;
     }
 }
@@ -141,15 +141,15 @@ body {
         background-color: #ffffff;
     }
 
-    .instagram-wrapper {
+    .instadog-wrapper {
         width: 90%;
     }
 
-    .instagram-phone {
+    .instadog-phone {
         display: none;
     }
 
-    .instagram-continue {
+    .instadog-continue {
         width: 100%;
     }
     
