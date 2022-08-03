@@ -26,14 +26,25 @@ body {
 }
 
 .instadog-phone {
-    display: flex;
-    align-items: center;
+    position: relative;
+    align-items: left;
     justify-content: center;
     width: 50%;
 }
 
-.instadog-phone img {
+#imgcelular{
     height: 50rem;
+    position: relative;
+    top: 0;
+    left: -83px;
+}
+
+#golden-retriever-viralhog{
+    height: 32rem;
+    width: 18rem;
+    position: absolute;
+    top: 141px;
+    left: 138px;
 }
 
 .instadog-continue {
