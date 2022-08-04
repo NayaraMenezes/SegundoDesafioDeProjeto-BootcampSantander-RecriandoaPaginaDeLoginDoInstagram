@@ -10,7 +10,7 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243, 243, 243);
+    background-color: #e8eeea;
     margin: 0;
     padding: 0;
     display: flex;
@@ -32,14 +32,14 @@ body {
     width: 50%;
 }
 
-#imgcelular{
+#imgcelular {
     height: 50rem;
     position: relative;
     top: 0;
     left: -83px;
 }
 
-#golden-retriever-viralhog{
+#golden-retriever-viralhog {
     height: 32rem;
     width: 18rem;
     position: absolute;
@@ -49,8 +49,10 @@ body {
 
 .instadog-continue {
     display: flex;
-    align-items: center; /* horizontal */
-    justify-content: space-around; /* vertical */
+    align-items: center;
+    /* horizontal */
+    justify-content: space-around;
+    /* vertical */
     flex-direction: column;
     width: 50%;
     min-height: 34rem;
@@ -88,14 +90,14 @@ body {
 }
 
 .instadog-login {
-    background-color: #0095f6;
+    background-color: #154922;
     color: #ffffff;
     padding: 8px;
     border-radius: 4px;
 }
 
 .instadog-logout {
-    color: #0095f6;
+    color: #154922;
     margin-top: 1rem;
 }
 
@@ -104,7 +106,7 @@ body {
 }
 
 .link-blue {
-    color: #0095f6;
+    color: #154922;
 }
 
 .get-the-app {
@@ -138,6 +140,7 @@ body {
     background-image: url('./img/googleplay-button.png');
 }
 
+
 /* media queries */
 
 
@@ -163,7 +166,7 @@ body {
     .instadog-continue {
         width: 100%;
     }
-    
+
     .group {
         border: 1px solid transparent;
     }
